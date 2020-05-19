@@ -19,7 +19,7 @@ To start the kafka producer
 ``` .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic hive ```
  
 To start the kafka consumer 
- ``` .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic bearcat-messages --from-beginning ```
+ ``` .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic hive --from-beginning ```
 
 
 
